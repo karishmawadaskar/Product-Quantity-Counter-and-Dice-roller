@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Home page</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+     <!--Dice roller-->
+    <div class="container">
+        <div class="container1">
+            <h1>Dice roller</h1>
+            <img src="./images/ludo.jpg" class="ludo-img" />
+
+            <img src="./images/dice.png" id="dice" class="dice">
+            <div class="dice-container">
+                <button onclick="rolldice()" class="btn">Roll the dice</button>
+            </div>
+        </div>
+        
+        <!--Product quantity counter-->
+        <div class="container2">
+            <h1>Product quantity counter</h1>
+            <div class="img-container">
+                <img src="./images/fan1.webp" class="img">
+            </div>
+            <div class="info-container">
+                <div>
+                    <p class="heading">Havells Samraat 600Mm High speed ceiling Fan 100% Copper winding</p>
+                    <ul>
+                        <li> ₹2,980.00 Regular Price</li>
+                        <li>₹2,565.00Sale Price</li>
+                    </ul>
+                    <p class="heading">color:ivory</p>
+                    <button class="color-btn"></button>
+
+                    <p class="heading">Quantity</p>
+                    <div class="btn-container">
+                        <img src="./images/minus-sign.png" class="button" id="input-no"
+                            onclick="quantitychange('dec')" />
+                        <span id="quantity">1</span>
+                        <img src="./images/positive.png" class="button" id="input-no"
+                            onclick="quantitychange('inc')" />
+                    </div>
+                    <div  class="submit-btn">
+                    <button class="submit-btn">Add to Cart</button>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>  
+</body>
+<script src="script.js"></script>
+</html>
