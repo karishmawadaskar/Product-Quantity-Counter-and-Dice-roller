@@ -30,6 +30,7 @@ h1 {
     display: flex;
     flex-direction: column;
     max-width: 600px;
+    margin-top: 5px;
 }
 
 .dice {
@@ -118,4 +119,23 @@ h1 {
 }
 .submit-btn:hover{
     background-color: rgb(166, 87, 240);
+}
+@media screen and (max-width:340px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .ludo-img {
+        width: 200px;
+        height: 200px;
+    }
+    .dice {
+        height: 50px;
+        width: 50px;
+    }
+    .img {
+        height: 200px;
+    }
+    
 }
