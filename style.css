@@ -1,0 +1,121 @@
+/*Dice roller*/
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 1px solid gray;
+    max-width: 700px;
+    box-shadow: 5px 5px 40px gray;
+    padding: 10px 30px;
+    margin: 20px 20px;
+}
+
+h1 {
+    color: rgb(87, 37, 133);
+    text-align: center;
+    text-decoration: 2px solid black;
+}
+
+.ludo-img {
+    width: 500px;
+    height: 500px;
+}
+
+.dice-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+}
+
+.dice {
+    height: 100px;
+    width: 100px;
+}
+
+.btn {
+    padding: 10px 25px;
+    border-radius: 20px;
+    border: 1px solid rosybrown;
+    background-color: blueviolet;
+    color: white;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(165, 87, 237);
+}
+
+/*Product quantity counter*/
+.container2 {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    border: 1px solid gray;
+    margin: 20px 10px;
+    box-shadow: 5px 5px 40px gray;
+    padding: 10px 30px;
+}
+
+.img-container {
+    margin-right: 40px;
+}
+
+.img {
+    height: 300px;
+}
+
+.info-container {
+    margin: 50px 0;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.heading {
+    font-weight: bold;
+}
+
+.input-no {
+    width: 35px;
+    height: 30px;
+}
+
+.btn-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.color-btn {
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    background-color: #e3ccb5;
+    border: none;
+    cursor: pointer;
+}
+
+.button {
+    margin: 5px 5px 15px 5px;
+    height: 30px;
+    width: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.submit-btn {
+    padding: 5px 25px;
+    border-radius: 20px;
+    border:none;
+    background-color: blueviolet;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    
+}
+.submit-btn:hover{
+    background-color: rgb(166, 87, 240);
+}
